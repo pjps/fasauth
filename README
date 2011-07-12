@@ -1,0 +1,30 @@
+
+fasauth.py:
+===========
+
+  Is the Askbot plugin to facilitate Fedora Accounts System(FAS) user
+authentication. It uses python-fedora package to send the authentication
+requests.
+
+    python-fedora -> https://fedorahosted.org/python-fedora
+
+fasauth.py exports a single API which is used by the Askbot server to perform
+authentication. It returns True or False based on the authentication result.
+
+    boolean check_password(username, password)
+
+
+Install:
+=========
+
+    # python setup.py install
+
+
+Bugs:
+=====
+
+  If you find bugs or have any comments or suggestions, please do write to
+me at: P J P <pj.pandit@yahoo.co.in>.
+
+
+Thank you.
