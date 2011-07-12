@@ -14,8 +14,14 @@ authentication. It returns True or False based on the authentication result.
     boolean check_password(username, password)
 
 
+fasauth, is distributed under the terms and conditions of GNU General Public
+License version 2 or(at your option) any later version. So, you are free to
+fiddle with in anyway you want, as long as you comply with the terms and
+conditions of the GNU GPLv2.
+
+
 Install:
-=========
+========
 
     # python setup.py install
 
