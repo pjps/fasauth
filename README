@@ -1,5 +1,5 @@
 
-fasauth.py:
+authfas.py:
 ===========
 
   Is the Askbot plugin to facilitate Fedora Accounts System(FAS) user
@@ -8,13 +8,13 @@ requests.
 
     python-fedora -> https://fedorahosted.org/python-fedora
 
-fasauth.py exports a single API which is used by the Askbot server to perform
+authfas.py exports a single API which is used by the Askbot server to perform
 authentication. It returns True or False based on the authentication result.
 
     boolean check_password(username, password)
 
 
-fasauth, is distributed under the terms and conditions of GNU General Public
+authfas, is distributed under the terms and conditions of GNU General Public
 License version 2 or(at your option) any later version. So, you are free to
 fiddle with in anyway you want, as long as you comply with the terms and
 conditions of the GNU GPLv2.

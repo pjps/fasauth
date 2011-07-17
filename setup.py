@@ -13,16 +13,8 @@
 
 from distutils.core import setup
 
-setup(name='fasauth', version='0.1',
+setup(name='askbot-plugin-authfas', version='0.1',
       description='Askbot plugin to facilitate FAS authentication.',
       author='P J P', author_email='pj.pandit@yahoo.co.in',
-      url='http://github.com',
-      py_modules = ['fasauth'],
-      data_files=[('share/doc/fas-plugin-askbot',
-                        ['settings.py',
-                         'fedora.png',
-                         'README',
-                         'COPYING',
-                         'fas-plugin-askbot.spec']
-                 )]
-     )
+      url='http://github.com/pjps',
+      py_modules = ['authfas'])

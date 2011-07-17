@@ -12,4 +12,4 @@
 # This variable points to the Askbot plugin which will be used for user
 # authentication.
 #
-ASKBOT_CUSTOM_AUTH_MODULE = 'fasauth'
+ASKBOT_CUSTOM_AUTH_MODULE = 'authfas'

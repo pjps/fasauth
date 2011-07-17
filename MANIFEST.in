@@ -1,0 +1,2 @@
+include COPYING README askbot-plugin-authfas.spec
+include fedora.png settings.py setup.py MANIFEST

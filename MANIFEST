@@ -1,7 +1,8 @@
 COPYING
+MANIFEST
 README
-fas-plugin-askbot.spec
-fasauth.py
+askbot-plugin-authfas.spec
+authfas.py
 fedora.png
 settings.py
 setup.py
