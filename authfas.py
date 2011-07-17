@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-# fasauth.py: Askbot plugin to facilitate Fedora Account System(FAS) user
+# authfas.py: Askbot plugin to facilitate Fedora Account System(FAS) user
 # authentication.
 #
 # Author: P J P <pj.pandit@yahoo.co.in>
